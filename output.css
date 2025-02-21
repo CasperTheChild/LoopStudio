@@ -1,0 +1,281 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Josefin+Sans:wght@100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+:root, ::after, ::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
+  line-height: 1;
+}
+
+.Alata {
+  font-family: Alata;
+  font-weight: 400;
+}
+
+.JosefinSans {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+}
+
+.Heading {
+  font-size: 2.5rem; /*      72px        */
+  color: var(--White);
+  line-height: 0.95;
+}
+
+.Heading_M {
+  font-size: 2rem;
+}
+
+.Heading_L {
+  font-size: 1.5rem;
+  color: var(--White);
+  line-height: 1;
+}
+
+.Button-Font {
+  font-size: 0.875rem;
+  letter-spacing: 0.3125rem;
+}
+
+.Offcanvas-Font {
+  font-size: 1.5rem;
+  line-height: 1.5625rem;
+}
+
+.Body {
+  font-size: 0.9375rem;
+  line-height: 1.5625rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.nav {
+  height: 100vh;
+  background-image: url("images/mobile/image-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav__links {
+  color: var(--White);
+}
+
+.main__hot-news-description {
+  color: var(--Dark-Gray);
+}
+
+.main__creations-see-all-button {
+  background-color: inherit;
+}
+
+.main__creations-see-all-button:hover, .main__creations-see-all-button:focus {
+  background-color: var(--Black);
+  color: var(--White);
+}
+
+.main__news-lists-items {
+  width: 20.4375rem;
+  height: 7.5rem; /* 28.125rem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main__news-lists-items1 {
+  background-image: url("./images/mobile/image-deep-earth.jpg");
+}
+
+.main__news-lists-items2 {
+  background-image: url("./images/mobile/image-night-arcade.jpg");
+}
+
+.main__news-lists-items3 {
+  background-image: url("./images/mobile/image-soccer-team.jpg");
+}
+
+.main__news-lists-items4 {
+  background-image: url("./images/mobile/image-grid.jpg");
+}
+
+.main__news-lists-items5 {
+  background-image: url("./images/mobile/image-from-above.jpg");
+}
+
+.main__news-lists-items6 {
+  background-image: url("./images/mobile/image-pocket-borealis.jpg");
+}
+
+.main__news-lists-items7 {
+  background-image: url("./images/mobile/image-curiosity.jpg");
+}
+
+.main__news-lists-items8 {
+  background-image: url("./images/mobile/image-fisheye.jpg");
+}
+
+.footer, .offcanvas {
+  background-color: var(--Black);
+}
+
+.footer button {
+  background-color: inherit;
+}
+
+.footer .footer__link-item {
+  color: var(--White);
+}
+
+.offcanvas {
+  height: 100vh;
+}
+
+.offcanvas__close-button {
+  filter: brightness(1);
+}
+
+.offcanvas-header {
+  margin-bottom: 10rem;
+}
+
+.offcanvas__links-item {
+  color: var(--White);
+}
+
+.body__button--active:hover::after, .body__button--active:focus::after {
+  content: "";
+  display: block;
+  width: 1.5rem;
+  height: 0.125rem;
+  position: absolute;
+  bottom: -0.5rem;
+  left: 25%;
+  background-color: var(--White);
+}
+
+.body__social-links--active, .body__button--active {
+  outline: 0 !important;
+  border: 0 !important;
+}
+
+.body__social-links--active:hover::after, .body__social-links--active:focus::after {
+  content: "";
+  display: block;
+  width: 1.5rem;
+  height: 0.125rem;
+  position: absolute;
+  bottom: -0.5rem;
+  background-color: var(--White);
+}
+
+.main__news-lists-items--active:hover {
+  opacity: 0.3;
+  transition: opacity 0.3s ease-out;
+}
+
+.main__news-lists-items--active:hover .main__news-lists-items-text {
+  opacity: 1;
+  color: var(--Black);
+  transition: color 0.3s ease-out;
+}
+
+@media (min-width: 768px) {
+  .main, .footer, .nav {
+    padding: 3rem 6.25rem !important;
+  }
+  .Heading {
+    font-size: 4.5rem;
+  }
+  .Heading_M {
+    font-size: 3rem;
+  }
+  .Heading_L {
+    font-size: 2rem;
+    color: var(--White);
+    line-height: 1;
+  }
+  .nav {
+    height: 40.625rem;
+    margin-bottom: 4rem !important;
+  }
+  .main__hot-news, .main {
+    margin-bottOM: 5.5rem !important;
+  }
+  .main__creations-heading-container {
+    margin-bottom: 3rem !important;
+  }
+}
+@media (min-width: 992px) {
+  .main, .footer, .nav {
+    padding: 4rem 10.25rem !important;
+  }
+  .Heading {
+    font-size: 4.5rem;
+  }
+  .Heading_M {
+    font-size: 3rem;
+  }
+  .Heading_L {
+    font-size: 2rem;
+    color: var(--White);
+    line-height: 1;
+  }
+  .nav {
+    height: 40.625rem;
+    margin-bottom: 10rem !important;
+  }
+  .main__hot-news-article {
+    padding: 6rem 0 0 6rem !important;
+    background-color: var(--White);
+  }
+  .main__hot-news, .main {
+    margin-bottOM: 11.5rem !important;
+  }
+  .main__creations-heading-container {
+    margin-bottom: 5rem !important;
+  }
+  .main__news-lists-items {
+    width: 16rem;
+    height: 28.125rem;
+    padding: 2.5rem !important;
+  }
+  .main__news-lists-items1 {
+    background-image: url("./images/desktop/image-deep-earth.jpg");
+  }
+  .main__news-lists-items2 {
+    background-image: url("./images/desktop/image-night-arcade.jpg");
+  }
+  .main__news-lists-items3 {
+    background-image: url("./images/desktop/image-soccer-team.jpg");
+  }
+  .main__news-lists-items4 {
+    background-image: url("./images/desktop/image-grid.jpg");
+  }
+  .main__news-lists-items5 {
+    background-image: url("./images/desktop/image-from-above.jpg");
+  }
+  .main__news-lists-items6 {
+    background-image: url("./images/desktop/image-pocket-borealis.jpg");
+  }
+  .main__news-lists-items7 {
+    background-image: url("./images/desktop/image-curiosity.jpg");
+  }
+  .main__news-lists-items8 {
+    background-image: url("./images/desktop/image-fisheye.jpg");
+  }
+  .position-lg-absolute {
+    position: absolute;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */

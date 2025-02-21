@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="output.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="p-0 m-0">
+  <nav class="nav p-4 p-lg-0 pt-5 mb-5 m-0 d-flex flex-column" aria-label="Primary Navigation">
+    <div class="nav__nav-links d-flex h-0 p-0 m-0 justify-content-between">
+      <div class="nav__logo-container cursor-pointer">
+        <img src="./images/logo.svg" class="nav__logo img-fluid" alt="Logo Image">
+      </div>
+      
+      <ul class="nav__links list-unstyled d-none d-lg-flex gap-4">
+        <li class="nav__links-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active border-0 shadow-none">About</a></li>
+        <li class="nav__links-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">Careers</a></li>
+        <li class="nav__links-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">Events</a></li>
+        <li class="nav__links-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">Products</a></li>
+        <li class="nav__links-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">Support</a></li>
+      </ul>
+      
+      <div class="nav__mobile-offcanvas nav__mobile-offcanvas--active ms-auto d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        <img src="./images/icon-hamburger.svg" class="nav__mobile-offcanvas-img img-fluid" alt="More Options">
+      </div>
+    </div>
+
+    <div class="nav__slogan-container border border-2 p-4 p-lg-5 m-auto col-lg-9 mx-0 text-uppercase">
+      <h1 class="nav__slogan Heading JosefinSans m-0">Immersive experiences that deliver</h1>
+    </div>
+  </nav>
+
+  <main class="main p-4 pt-5 mb-5">
+    <div class="main__hot-news p-0 d-grid gap-4 row position-relative">
+      <div class="main__hot-news-img-container d-flex justify-content-center col-lg-8 border-0">
+        <img src="./images/mobile/image-interactive.jpg" class="main__hot-news-img img-fluid" alt="a guy playing VR">
+      </div>
+      <article class="main__hot-news-article p-4 p-lg-0 m-0 pb-lg-3 text-center col-lg-6 position-lg-absolute bottom-0 end-0">
+        <h1 class="main__hot-news-heading Heading_M JosefinSans text-uppercase text-lg-start">The leader in interactive VR</h1>
+        <p class="main__hot-news-description Body Alata m-0">
+          Founded in 2011, Loopstudios has been producing world-class virtual reality
+          projects for some of the best companies around the globe. Our award-winning
+          creations have transformed businesses through digital experiences that bind
+          to their brand.
+        </p>
+      </article>
+    </div>
+
+    <div class="main__creations mt-5 d-flex flex-column">
+      <div class="main__creations-heading-container d-flex justify-content-between mb-5 align-items-center">
+        <h2 class="main__creations-heading Heading_M JosefinSans text-center order-0 text-uppercase m-0">Our creations</h2>
+        <button class="main__creations-see-all-button Button-Font Alata d-none d-lg-block border-1 background-inherit py-2 px-5 mx-auto mx-lg-0 text-uppercase" aria-label="See all creation">See all</button>
+      </div>
+      
+      <ul class="main__news-lists row order1 list-unstyled d-flex gap-4 mx-auto text-uppercase mb-4">
+        <li class="main__news-lists-items main__news-lists-items1 Heading_L JosefinSans p-3 mx-auto row d-flex align-items-end main__news-lists-items--active" tabindex="0"><p class="m-0 p-0 col-5 main__news-lists-items-text">Deep earth</p></li>
+        <li class="main__news-lists-items main__news-lists-items2 Heading_L JosefinSans p-3 mx-auto row d-flex align-items-end main__news-lists-items--active" tabindex="0"><p class="m-0 p-0 col-5 main__news-lists-items-text">Night arcade</p></li>
+        <li class="main__news-lists-items main__news-lists-items3 Heading_L JosefinSans p-3 mx-auto row d-flex align-items-end main__news-lists-items--active" tabindex="0"><p class="m-0 p-0 col-5 main__news-lists-items-text">Soccer team VR</p></li>
+        <li class="main__news-lists-items main__news-lists-items4 Heading_L JosefinSans p-3 mx-auto row d-flex align-items-end main__news-lists-items--active" tabindex="0"><p class="m-0 p-0 col-5 main__news-lists-items-text">The grid</p></li>
+        <li class="main__news-lists-items main__news-lists-items5 Heading_L JosefinSans p-3 mx-auto row d-flex align-items-end main__news-lists-items--active" tabindex="0"><p class="m-0 p-0 col-5 main__news-lists-items-text">From up above VR</p></li>
+        <li class="main__news-lists-items main__news-lists-items6 Heading_L JosefinSans p-3 mx-auto row d-flex align-items-end main__news-lists-items--active" tabindex="0"><p class="m-0 p-0 col-5 main__news-lists-items-text">Pocket borealis</p></li>
+        <li class="main__news-lists-items main__news-lists-items7 Heading_L JosefinSans p-3 mx-auto row d-flex align-items-end main__news-lists-items--active" tabindex="0"><p class="m-0 p-0 col-5 main__news-lists-items-text">The curiosity</p></li>
+        <li class="main__news-lists-items main__news-lists-items8 Heading_L JosefinSans p-3 mx-auto row d-flex align-items-end main__news-lists-items--active" tabindex="0"><p class="m-0 p-0 col-5 main__news-lists-items-text">Make it fisheye</p></li>
+      </ul>
+
+      <button class="main__creations-see-all-button Button-Font Alata d-block d-lg-none border-1 background-inherit py-2 px-5 mx-auto text-uppercase" aria-label="See all options">See all</button>
+    </div>
+
+
+    <div class="offcanvas offcanvas-start p-4 pt-5 mb-5 m-0 d-flex flex-column" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+      <div class="offcanvas-header p-0">
+        <div class="offcanvas__logo-container">
+          <img src="./images/logo.svg" class="offcanvas__logo img-fluid" class="Main Logo">
+        </div>
+
+        <button type="button" class="offcanvas__close-button btn-close d-flex justify-content-center align-items-center" data-bs-dismiss="offcanvas" aria-label="Close"><img src="./images/icon-close.svg" class="img-fluid"></button>
+      </div>
+      <div class="offcanvas-body p-0">
+        <ul class="offcanvas__links list-unstyled d-flex flex-column gap-3">
+          <li class="offcanvas__links-item Heading_L JosefinSans"><a href="" class="text-decoration-none text-reset body__button--active">About</a></li>
+          <li class="offcanvas__links-item Heading_L JosefinSans"><a href="" class="text-decoration-none text-reset body__button--active">Careers</a></li>
+          <li class="offcanvas__links-item Heading_L JosefinSans"><a href="" class="text-decoration-none text-reset body__button--active">Events</a></li>
+          <li class="offcanvas__links-item Heading_L JosefinSans"><a href="" class="text-decoration-none text-reset body__button--active">Products</a></li>
+          <li class="offcanvas__links-item Heading_L JosefinSans"><a href="" class="text-decoration-none text-reset body__button--active">Support</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer mt-5 text-center p-5 d-lg-flex justify-content-between">
+    <div class="footer__site-nav">
+      <button class="footer__logo-container border-0 mb-4 m-lg-0 mb-lg-2">
+        <img src="./images/logo.svg" class="footer__logo">
+      </button>
+
+      <ul class="footer__links list-unstyled mb-5 d-flex flex-column gap-4 flex-lg-row m-lg-0">
+        <li class="footer__link-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">About</a></li>
+        <li class="footer__link-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">Careers</a></li>
+        <li class="footer__link-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">Events</a></li>
+        <li class="footer__link-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">Products</a></li>
+        <li class="footer__link-item Body Alata position-relative"><a href="" class="text-decoration-none text-reset body__button--active">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__additional-information">
+      <ul class="footer__social-links list-unstyled d-flex gap-3 justify-content-center mb-lg-3">
+        <li class="footer__social-link-item position-relative"><a href="" class="text-decoration-none text-reset body__social-links--active"><img src="./images/icon-facebook.svg" alt="facebook"></a></li>
+        <li class="footer__social-link-item position-relative"><a href="" class="text-decoration-none text-reset body__social-links--active"><img src="./images/icon-instagram.svg" alt="instragram"></a></li>
+        <li class="footer__social-link-item position-relative"><a href="" class="text-decoration-none text-reset body__social-links--active"><img src="./images/icon-pinterest.svg" alt="pinterest"></a></li>
+        <li class="footer__social-link-item position-relative"><a href="" class="text-decoration-none text-reset body__social-links--active"><img src="./images/icon-twitter.svg" alt="twitter"></a></li>
+      </ul>
+      <div class="footer__rights-information Body Alata">
+        <p>© 2021 Loopstudios. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/CasperTheChild">CasperTheChild</a>.
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
