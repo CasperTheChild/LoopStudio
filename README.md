@@ -26,14 +26,12 @@ Users should be able to:
 ### Screenshot
 
 ![](./design/desktop-design.jpg)  
-![](./design/active-states.jpg)  
 ![](./design/mobile-design.jpg)  
-![](./design/mobile-menu.jpg)  
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/CasperTheChild/LoopStudio)
+- Live Site URL: [Add live site URL here](https://casperthechild.github.io/LoopStudio/)
 
 ## My Process
 
