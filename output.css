@@ -178,12 +178,17 @@
   background-color: var(--White);
 }
 
-.main__news-lists-items--active:hover {
+.main__news-lists-items--active {
+  outline: 0;
+  border: 0;
+}
+
+.main__news-lists-items--active:hover, .main__news-lists-items--active:hover {
   opacity: 0.3;
   transition: opacity 0.3s ease-out;
 }
 
-.main__news-lists-items--active:hover .main__news-lists-items-text {
+.main__news-lists-items--active:hover .main__news-lists-items-text, .main__news-lists-items--active:hover .main__news-lists-items-text {
   opacity: 1;
   color: var(--Black);
   transition: color 0.3s ease-out;
